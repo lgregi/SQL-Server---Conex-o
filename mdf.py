@@ -3,7 +3,7 @@ import pyodbc
 # conexão com o banco de dados
 conn = pyodbc.connect('Driver={SQL Server};'
                       'Server=(local)\SQLEXPRESS;'
-                      'AttachDbFileName=C:\Caminho\para\seu\arquivo.mdf;'
+                      'AttachDbFileName=C:/arquivo.mdf;'
                       'Database=NomeDoBancoDeDados;'
                       'Trusted_Connection=yes;')
 
